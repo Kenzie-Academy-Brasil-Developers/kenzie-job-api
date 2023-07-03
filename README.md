@@ -101,7 +101,7 @@ Caso dê tudo certo, a resposta será assim:
 
 <h2 align = "center"> Login como empresa</h2>
 
-`POST /sessions - FORMATO DA REQUISIÇÃO`
+`POST /login - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
