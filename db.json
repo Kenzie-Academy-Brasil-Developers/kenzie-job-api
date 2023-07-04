@@ -10,6 +10,7 @@
   ],
   "jobs": [
     {
+      "userId": 1,
       "id": 1,
       "position": "Desenvolvedor FullStack Jr",
       "sallary": 3400,
