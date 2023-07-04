@@ -16,11 +16,11 @@ A url base da API é https://kenzie-job-api.onrender.com/
 
 ## Rotas que não precisam de autenticação
 
-<h2 align ='center'> Listagem de jobs </h2>
+<h2 align ='center'> Listagem de jobs com o nome da empresa </h2>
 
 Nessa aplicação o usuário sem fazer login ou se cadastrar pode ver os produtos já cadastrados na plataforma, na API podemos acessar a lista dessa forma:
 
-`GET /jobs - FORMATO DA RESPOSTA - STATUS 200`
+`GET /jobs?_expand=user - FORMATO DA RESPOSTA - STATUS 200`
 
 ```json
 [
