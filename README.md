@@ -29,7 +29,14 @@ Nessa aplicação o usuário sem fazer login ou se cadastrar pode ver os produto
     "id": 1,
     "position": "Desenvolvedor FullStack Jr",
     "sallary": 3400,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis orci nec felis varius pretium. Nam eu diam erat. Sed libero ante, finibus id nunc suscipit, sagittis sagittis sem. Nam accumsan, turpis sed consequat tincidunt, nibh odio tincidunt nunc, aliquet sodales sem tortor sed lectus."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis orci nec felis varius pretium. Nam eu diam erat. Sed libero ante, finibus id nunc suscipit, sagittis sagittis sem. Nam accumsan, turpis sed consequat tincidunt, nibh odio tincidunt nunc, aliquet sodales sem tortor sed lectus.",
+    "user": {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    }
   }
 ]
 ```
@@ -123,6 +130,22 @@ Caso dê tudo certo, a resposta será assim:
     "id": 3
   }
 }
+```
+
+<h2 align ='center'>Consultar usuários</h2>
+
+`GET /users/ - FORMATO DA REQUISIÇÃO`
+
+```json
+[
+  {
+    "email": "kenzinho@mail.com",
+    "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+    "name": "Kenzinho",
+    "age": 38,
+    "id": 1
+  }
+]
 ```
 
 ## Rotas que necessitam de autorização
