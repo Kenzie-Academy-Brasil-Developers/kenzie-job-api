@@ -160,7 +160,6 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 ```json
 {
-  "userId": 1,
   "position": "Desenvolvedor FullStack Jr",
   "sallary": 3400,
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis orci nec felis varius pretium. Nam eu diam erat. Sed libero ante, finibus id nunc suscipit, sagittis sagittis sem. Nam accumsan, turpis sed consequat tincidunt, nibh odio tincidunt nunc, aliquet sodales sem tortor sed lectus."
@@ -195,7 +194,6 @@ Não é necessário um corpo da requisição.
 ```json
 [
   {
-    "userId": 1,
     "id": 1,
     "position": "Desenvolvedor FullStack Jr",
     "sallary": 3400,
@@ -214,7 +212,6 @@ Não é necessário um corpo da requisição.
   {
     "id": 1,
     "jobId": 1,
-    "userId": 1,
     "name": "Tsunode",
     "email": "tsunode@mail.com",
     "linkedin": "https://www.linkedin.com/in/tsunode"
