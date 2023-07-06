@@ -20,6 +20,7 @@
   "applications": [
     {
       "id":  1,
+      "userId": 1,
       "jobId": 1,
       "name": "Tsunode",
       "email": "tsunode@mail.com",

@@ -212,6 +212,7 @@ Não é necessário um corpo da requisição.
   {
     "id": 1,
     "jobId": 1,
+    "userId": 1,
     "name": "Tsunode",
     "email": "tsunode@mail.com",
     "linkedin": "https://www.linkedin.com/in/tsunode"
