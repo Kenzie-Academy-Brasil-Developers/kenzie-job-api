@@ -219,3 +219,18 @@ Não é necessário um corpo da requisição.
   }
 ]
 ```
+<h2 align ='center'> Listar todas as candidaturas por empresa </h2>
+
+`GET /applications?userId=:id&_expand=jobs - FORMATO DA REQUISIÇÃO`
+
+```json
+[
+  {
+    "id": 1,
+    "jobId": 1,
+    "userId": 1,
+    "name": "Tsunode",
+    "email": "tsunode@mail.com",
+    "linkedin": "https://www.linkedin.com/in/tsunode"
+  }
+]
