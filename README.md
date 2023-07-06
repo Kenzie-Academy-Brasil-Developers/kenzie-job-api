@@ -221,7 +221,7 @@ Não é necessário um corpo da requisição.
 ```
 <h2 align ='center'> Listar todas as candidaturas por empresa </h2>
 
-`GET /applications?userId=:id&_expand=jobs - FORMATO DA REQUISIÇÃO`
+`GET /applications?userId=:id&_embed=jobs - FORMATO DA REQUISIÇÃO`
 
 ```json
 [
